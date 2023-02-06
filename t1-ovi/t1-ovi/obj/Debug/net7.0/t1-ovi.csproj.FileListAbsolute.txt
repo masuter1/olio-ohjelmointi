@@ -1,0 +1,15 @@
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\bin\Debug\net7.0\t1-ovi.exe
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\bin\Debug\net7.0\t1-ovi.deps.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\bin\Debug\net7.0\t1-ovi.runtimeconfig.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\bin\Debug\net7.0\t1-ovi.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\bin\Debug\net7.0\t1-ovi.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.csproj.AssemblyReference.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.AssemblyInfoInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.AssemblyInfo.cs
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.csproj.CoreCompileInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\refint\t1-ovi.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\t1-ovi.genruntimeconfig.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t1-ovi\t1-ovi\obj\Debug\net7.0\ref\t1-ovi.dll

@@ -1,0 +1,15 @@
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\bin\Debug\net7.0\t2-ruoka-annos-gen.exe
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\bin\Debug\net7.0\t2-ruoka-annos-gen.deps.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\bin\Debug\net7.0\t2-ruoka-annos-gen.runtimeconfig.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\bin\Debug\net7.0\t2-ruoka-annos-gen.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\bin\Debug\net7.0\t2-ruoka-annos-gen.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.csproj.AssemblyReference.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.AssemblyInfoInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.AssemblyInfo.cs
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.csproj.CoreCompileInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\refint\t2-ruoka-annos-gen.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\t2-ruoka-annos-gen.genruntimeconfig.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t2-ruoka-annos-gen\t2-ruoka-annos-gen\obj\Debug\net7.0\ref\t2-ruoka-annos-gen.dll
