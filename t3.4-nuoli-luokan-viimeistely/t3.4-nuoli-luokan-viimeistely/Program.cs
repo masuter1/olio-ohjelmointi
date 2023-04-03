@@ -3,8 +3,11 @@
 int shaft = 0;
 Head head = Head.puu;
 Fletching fletching = Fletching.lehti;
+NuolenTyyppi nuolenTyyppi = NuolenTyyppi.aloittelija;
 int kohta = 0;
 bool done = false;
+
+
 
 while (!done)
 {
@@ -13,16 +16,27 @@ while (!done)
         case 0:
             try
             {
+                nuolenTyyppi = Enum.Parse<NuolenTyyppi>(Question($""), true);
+                switch (NuolenTyyppi)
+                {
+                    case NuolenTyyppi.eliitti:
+                        Nuoli.CreateEliteArrow() // tee tämä
+                }
+            }
+
+        case 1:
+            try
+            {
                 shaft = Convert.ToInt32(Question("Kuinka pitkä varsi? (60-100)"));
             }
             catch (FormatException)
             {
                 Console.WriteLine("Annathan vain kokonaisia numeroita");
-                goto case 0;
+                goto case 1;
             }
             if (59 > shaft || 101 < shaft) { Console.WriteLine("Annathan vain sallitun koon"); goto case 0; }
             kohta++; break;
-        case 1:
+        case 2:
             try
             {
                 head = Enum.Parse<Head>(Question("Minkälaisen kärjen haluat? (puu, teräs vai timantti)"), true);
@@ -30,10 +44,10 @@ while (!done)
             catch
             {
                 Console.WriteLine("Annathan vain yhden vaihtoehdoista");
-                goto case 1;
+                goto case 2;
             }
             kohta++; break;
-        case 2:
+        case 3:
             try
             {
                 fletching = Enum.Parse<Fletching>(Question("Minkälaisen sulan haluat? (lehti, kanansulka vai kotkansulka)"));
@@ -41,7 +55,8 @@ while (!done)
             catch
             {
                 Console.WriteLine("Annathan vain yhden vaihtoehdoista");
-                goto case 2;
+                goto case 3;
+                
             }
             kohta++; break;
         default: done = true; break;
@@ -52,7 +67,7 @@ while (!done)
 
 Nuoli nuoli = new Nuoli(shaft, head, fletching);
 
-Console.Write($"Tämä nuoli maksaa {nuoli.Hinta()} kultakolikkoa");
+Console.Write($"Tämä nuoli maksaa {nuoli.Hinta()} kultakolikkoa\nNuolen pää: {nuoli.Head}, Nuolen Sulka: {nuoli.Fletching}, Nuolen pituus: {nuoli.Shaft}");
 
 string Question(string question)
 {
@@ -70,9 +85,6 @@ class Nuoli
         Head = head;
         Fletching = fletching;
     }
-    private static Head bestHead = Head.timantti;
-    private static Fletching bestFletching = Fletching.kotkansulka;
-    private static int bestShaft = 100;
     public double Hinta()
     {
         double hinta = 0;
@@ -95,10 +107,19 @@ class Nuoli
     }
     public static Nuoli CreateEliteArrow()
     {
-        return new Nuoli(Nuoli.bestShaft, Nuoli.bestHead, Nuoli.bestFletching);
+        return new Nuoli(100, Head.timantti, Fletching.kotkansulka);
+    }
+    public static Nuoli CreateBasicArrow()
+    {
+        return new Nuoli(85, Head.teräs, Fletching.kanansulka);
+    }
+    public static Nuoli CreateBeginnerArrow()
+    {
+        return new Nuoli(70, Head.puu, Fletching.kanansulka);
     }
 
 }
 
 internal enum Head { puu, teräs, timantti };
 internal enum Fletching { lehti, kanansulka, kotkansulka };
+internal enum NuolenTyyppi { eliitti, perus, aloittelija };
