@@ -1,0 +1,15 @@
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\bin\Debug\net6.0\t3.3-nuolille-ominaisuudet.exe
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\bin\Debug\net6.0\t3.3-nuolille-ominaisuudet.deps.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\bin\Debug\net6.0\t3.3-nuolille-ominaisuudet.runtimeconfig.json
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\bin\Debug\net6.0\t3.3-nuolille-ominaisuudet.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\bin\Debug\net6.0\t3.3-nuolille-ominaisuudet.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.csproj.AssemblyReference.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.AssemblyInfoInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.AssemblyInfo.cs
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.csproj.CoreCompileInputs.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\refint\t3.3-nuolille-ominaisuudet.dll
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.pdb
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\t3.3-nuolille-ominaisuudet.genruntimeconfig.cache
+C:\Users\s2101048\OneDrive - Business College Helsinki\Työpöytä\olio-ohjelmointi-git\t3.3-nuolille-ominaisuudet\t3.3-nuolille-ominaisuudet\obj\Debug\net6.0\ref\t3.3-nuolille-ominaisuudet.dll
