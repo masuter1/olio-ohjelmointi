@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 int shaft = 0;
 Head head = Head.puu;
@@ -8,21 +9,40 @@ int kohta = 0;
 bool done = false;
 
 
-
 while (!done)
 {
     switch (kohta)
     {
         case 0:
+            Nuoli eliittiNuoli = Nuoli.CreateEliteArrow();
+            Nuoli perusNuoli = Nuoli.CreateBasicArrow();
+            Nuoli aloittelijaNuoli = Nuoli.CreateBeginnerArrow();
+            string arrowTypeQuestion = $"Minkä nuolen haluat vai haluatko tehdä nuolen itse?\nVaihtoehdot:\n{HintaString(eliittiNuoli)}, Kirjoita \"eliitti\"\n{HintaString(perusNuoli)}, Kirjoita \"perus\"\n{HintaString(aloittelijaNuoli)}, Kirjoita \"aloittelija\"\nVoit myös tehdä oman nuolen kirjoittamalla \"kustomoitu\"";
             try
             {
-                nuolenTyyppi = Enum.Parse<NuolenTyyppi>(Question($""), true);
-                switch (NuolenTyyppi)
+                nuolenTyyppi = Enum.Parse<NuolenTyyppi>(Question(arrowTypeQuestion), true);
+                switch (nuolenTyyppi)
                 {
                     case NuolenTyyppi.eliitti:
-                        Nuoli.CreateEliteArrow() // tee tämä
+                        Console.WriteLine("Valitsit eliittinuolen");
+                        kohta = 4; break;
+                    case NuolenTyyppi.perus:
+                        Console.WriteLine("Valitsit perusnuolen");
+                        kohta = 4; break;
+                    case NuolenTyyppi.aloittelija:
+                        Console.WriteLine("Valitsit aloittelijanuolen");
+                        kohta = 4; break;
+                    case NuolenTyyppi.kustomoitu:
+                        Console.WriteLine("Valitsit kustomoidun nuolen. Jatketaan...");
+                        kohta = 1; break;
                 }
             }
+            catch
+            {
+                Console.WriteLine("Valitsethan nuolen tyypin kirjoittamalla joko \"eliitti\", \"perus\", \"aloittelija\" tai \"kustomoitu\".");
+                goto case 0;
+            }
+            break;
 
         case 1:
             try
@@ -58,16 +78,19 @@ while (!done)
                 goto case 3;
                 
             }
+            Nuoli nuoli = new Nuoli(shaft, head, fletching, "Kustomoitu Nuoli");
+            HintaString(nuoli);
             kohta++; break;
         default: done = true; break;
-
     }
 }
 
 
-Nuoli nuoli = new Nuoli(shaft, head, fletching);
+string HintaString(Nuoli nuoli)
+{
+    return $"Nimi: {nuoli.Name}, Kärki: {nuoli.Head}, Sulka: {nuoli.Fletching}, Pituus: {nuoli.Shaft}, Hinta: {nuoli.Hinta()} kultakolikkoa";
+}
 
-Console.Write($"Tämä nuoli maksaa {nuoli.Hinta()} kultakolikkoa\nNuolen pää: {nuoli.Head}, Nuolen Sulka: {nuoli.Fletching}, Nuolen pituus: {nuoli.Shaft}");
 
 string Question(string question)
 {
@@ -79,11 +102,13 @@ class Nuoli
     public Head Head { get; set; }
     public Fletching Fletching { get; set; }
     public int Shaft { get; set; }
-    public Nuoli(int shaft, Head head, Fletching fletching)
+    public string Name { get; set; }
+    public Nuoli(int shaft, Head head, Fletching fletching, string name)
     {
         Shaft = shaft;
         Head = head;
         Fletching = fletching;
+        Name = name;
     }
     public double Hinta()
     {
@@ -107,19 +132,19 @@ class Nuoli
     }
     public static Nuoli CreateEliteArrow()
     {
-        return new Nuoli(100, Head.timantti, Fletching.kotkansulka);
+        return new Nuoli(100, Head.timantti, Fletching.kotkansulka, "Eliittinuoli");
     }
     public static Nuoli CreateBasicArrow()
     {
-        return new Nuoli(85, Head.teräs, Fletching.kanansulka);
+        return new Nuoli(85, Head.teräs, Fletching.kanansulka, "Perusnuoli");
     }
     public static Nuoli CreateBeginnerArrow()
     {
-        return new Nuoli(70, Head.puu, Fletching.kanansulka);
+        return new Nuoli(70, Head.puu, Fletching.kanansulka, "Aloittelijanuoli");
     }
 
 }
 
 internal enum Head { puu, teräs, timantti };
 internal enum Fletching { lehti, kanansulka, kotkansulka };
-internal enum NuolenTyyppi { eliitti, perus, aloittelija };
+internal enum NuolenTyyppi { eliitti, perus, aloittelija, kustomoitu };
